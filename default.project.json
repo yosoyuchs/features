@@ -1,0 +1,31 @@
+{
+  "name": "features",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Common": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/home"
+        }
+      }
+    }
+  }
+}
